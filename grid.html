@@ -1,0 +1,114 @@
+<style>
+    .main {
+        background-color: grey;
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+        
+    }
+
+    .header {
+        margin: 10px;
+        background-color: blue;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footer {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        background-color: blue;
+    }
+
+
+    .middle {
+        
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .aside {
+        background-color: greenyellow;
+        height: 200px;
+        margin: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .col-2 {
+        background-color: orange;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        height: 200px;
+        margin: 10px;
+
+
+    }
+
+    .image {
+        background-color: yellow;
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .article {
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+        height: 100px;
+        
+
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    .free{
+         text-align: center;
+    }
+
+
+</style>
+
+
+<div class="main">
+    <div class="header">header</div>
+    <div class="middle">
+        <div class="aside">
+            aside
+        </div>
+        <div class="col-2">
+            <div class="row-1">
+            </div>
+            <div class="article">
+                <div class="free">article
+
+                </div>
+
+                <div class="images">
+                    <div class="image">image</div>
+                    <div class="image">image</div>
+                    <div class="image">image</div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">footer</div>
+
+</div>
